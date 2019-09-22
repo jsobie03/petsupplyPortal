@@ -1,0 +1,5 @@
+[18-Feb-2019 19:36:32 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/SmileCareAppointments/index.php on line 227
+[18-Feb-2019 19:37:09 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/SmileCareAppointments/book.php on line 53
+[18-Feb-2019 19:40:58 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/SmileCareAppointments/index.php on line 227
+[18-Feb-2019 20:16:13 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/SmileCareAppointments/index.php on line 227
+[18-Feb-2019 20:16:38 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/SmileCareAppointments/index.php on line 227

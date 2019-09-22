@@ -1,0 +1,29 @@
+/* styles for scrolling table */
+.ewScrollableTable .ewScrollableTableHeader {
+	overflow: hidden;	
+}
+.ewScrollableTable .ewScrollableTableHeader > table {
+	border-collapse: separate;
+}
+.ewScrollableTable .ewScrollableTableHeader .ewScrollableTableOverhang {
+	padding: 0;
+	border: 0;
+	border-bottom: 1px solid; /* header border width */
+	border-color: #8A0A37; /* header border color */
+	background-color: #B1174D; /* header bgcolor	*/
+	border-color: #DEDEDE; /* header border color */       
+	background-color: #DEDEDE;
+
+	/* Begin of modification Change Header Background Color Image to Default Gray color, by Masino Sinaga, April 30, 2012 */
+
+	/* background-image: -webkit-linear-gradient(top, #D26D91, #B1174D); */
+
+	/* background-image: linear-gradient(to bottom, #D26D91, #B1174D); */
+
+	/* End of modification Change Header Background Color Image to Default Gray color, by Masino Sinaga, April 30, 2012 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D26D91', endColorstr='#B1174D', GradientType=0);
+	background-repeat: repeat-x;		
+}
+.ewScrollableTable .ewListOptionBody .ewButtonGroup .ewIcon {
+	min-width: 16px;	
+}

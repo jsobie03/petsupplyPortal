@@ -1,0 +1,3 @@
+[18-Feb-2019 20:17:33 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/jsobieze/public_html/PetSupplyPortal/storeBookingCalendar/index.php on line 238
+[18-Feb-2019 20:21:55 America/Denver] PHP Notice:  Undefined index: name in /home2/jsobieze/public_html/PetSupplyPortal/storeBookingCalendar/index.php on line 242
+[03-Mar-2019 19:10:44 America/Denver] PHP Notice:  Undefined index: captcha in /home2/jsobieze/public_html/PetSupplyPortal/storeBookingCalendar/book.php on line 17

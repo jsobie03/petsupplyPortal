@@ -1,0 +1,11 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Status record telah diganti di <!--$ApplicationName-->:
+Tabel:		<!--table-->
+Nilai Kunci:	<!--key-->
+Aksi:		<!--action-->

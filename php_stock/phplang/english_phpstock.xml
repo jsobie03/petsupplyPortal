@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ew-language date="2015/11/2" version="12.0.3" id="en" name="English PHP Stock" desc="English" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="0"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$ "/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="America/Los_Angeles"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add"/>
+		<phrase id="addblankrow" value="Add Blank Row" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ewIcon"/><!-- v11 -->
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/><!-- v11 -->
+		<phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ewIcon"/><!-- v11 -->
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterrecordpage" value="Back to master table"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="buttonactions" value="Actions" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ewIcon"/><!-- v11 -->
+		<phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="buttonexport" value="Export" class="icon-export ewIcon"/><!-- v11 -->
+		<phrase id="buttonlistoptions" value="Options" class="icon-options ewIcon"/><!-- v11 -->
+		<phrase id="buttonsearch" value="Search" class="icon-search ewIcon"/><!-- v11 -->
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password"/>
+		<phrase id="changepwdbtn" value="Change"/>
+		<phrase id="choosefilebtn" value="Choose..."/><!-- v11 -->
+		<phrase id="choosefile" value="Choose file"/><!-- v11 -->
+		<phrase id="choosefiles" value="Choose files"/><!-- v11 -->
+		<phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1"/><!-- v12 -->
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmcancel" value="Do you want to cancel?" client="1"/><!-- v12 -->
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="lightboxtitle" value=" " client="1"/><!-- v11 -->
+		<phrase id="lightboxcurrent" value="image {current} of {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+		<phrase id="lightboxprevious" value="previous" client="1"/><!-- v11 -->
+		<phrase id="lightboxnext" value="next" client="1"/><!-- v11 -->
+		<phrase id="lightboxclose" value="close" client="1"/><!-- v11 -->
+		<phrase id="lightboxxhrerror" value="This content failed to load." client="1"/><!-- v11 -->
+		<phrase id="lightboximgerror" value="This image failed to load." client="1"/><!-- v11 -->
+		<phrase id="copy" value="Copy"/>
+		<phrase id="copylink" value="Copy" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="count" value="Count"/>
+		<phrase id="countselected" value="%s selected" client="1"/><!-- v12 -->
+		<phrase id="currentpassword" value="Current password: " client="1"/><!-- v12 -->
+		<phrase id="customactioncompleted" value="'%s' completed"/>
+		<phrase id="customactioncancelled" value="'%s' cancelled"/>
+		<phrase id="customactionfailed" value="'%s' failed"/><!-- v12 -->
+		<phrase id="customactionnotallowed" value="'%s' not allowed"/><!-- v12 -->
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete"/>
+		<phrase id="deletebtn" value="Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete the selected record(s)?" client="1"/>
+		<phrase id="deletefilter" value="Delete filter"/><!-- v12 -->
+		<phrase id="deletefilterconfirm" value="Delete filter %s?" client="1"/><!-- v12 -->
+		<phrase id="deletelink" value="Delete" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deleteselectedlink" value="Delete Selected Records" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+		<phrase id="masterdetailcopylink" value="Master/Detail Copy" class="icon-md-copy ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaileditlink" value="Master/Detail Edit" class="icon-md-edit ewIcon"/><!-- v11 -->
+		<phrase id="masterdetaillistlink" value="Detail List" class="icon-table ewIcon"/><!-- v11 -->
+		<phrase id="masterdetailviewlink" value="Master/Detail View" class="icon-md-view ewIcon"/><!-- v11 -->
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editlink" value="Edit" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="enterfiltername" value="Enter filter name" client="1"/><!-- v12 -->
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field - %s"/><!-- v11 -->
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Enter the validation code shown" client="1"/><!-- v11 -->
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV" class="icon-csv ewIcon"/><!-- v11 -->
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon"/><!-- v11 -->
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon"/><!-- v11 -->
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML" class="icon-html ewIcon"/><!-- v11 -->
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon"/><!-- v11 -->
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="Export to XML" class="icon-xml ewIcon"/><!-- v11 -->
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="File not found"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="filter" value="Filter"/><!-- v12 -->
+		<phrase id="filtername" value="Filter name" client="1"/><!-- v12 -->
+		<phrase id="filters" value="Filters" class="icon-filter ewIcon"/><!-- v12 -->
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddcancelled" value="Grid add cancelled"/><!-- v11 -->
+		<phrase id="gridaddlink" value="Grid Add" class="icon-grid-add ewIcon"/><!-- v11 -->
+		<phrase id="gridcancellink" value="Cancel" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+		<phrase id="grideditcancelled" value="Grid edit cancelled"/><!-- v11 -->
+		<phrase id="grideditlink" value="Grid Edit" class="icon-grid-edit ewIcon"/><!-- v11 -->
+		<phrase id="gridinsertlink" value="Insert" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="gridsavelink" value="Save" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="highlight" value="Highlight"/><!-- v11 -->
+		<phrase id="highlightbtn" value="Highlight" class="icon-highlight ewIcon"/><!-- v11 -->
+		<phrase id="homepage" value="Home" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add" class="icon-inline-add ewIcon"/><!-- v11 -->
+		<phrase id="inlinecopylink" value="Inline Copy" class="icon-inline-copy ewIcon"/><!-- v11 -->
+		<phrase id="inlineeditlink" value="Inline Edit" class="icon-inline-edit ewIcon"/><!-- v11 -->
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed" client="1"/>
+		<phrase id="insertlink" value="Insert" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidpostrequest" value="Invalid post request. Please click Back from your browser."/><!-- v11 -->
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="listactionbutton" value="Actions" class="icon-user ewIcon"/><!-- v12 -->
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginoptions" value="Options"/><!-- v11 -->
+		<phrase id="loginpage" value="Login"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New value"/><!-- v12 -->
+		<phrase id="next" value="Next" client="1"/><!-- v12 -->
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="nouserlevel" value="No user level settings."/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordmask" value="********"/><!-- v12 -->
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="passwordstrength" value="Strength: %p" client="1"/><!-- v12 -->
+		<phrase id="passwordtoosimple" value="Your password is too simple" client="1"/><!-- v12 -->
+		<phrase id="generatepassword" value="Generate password" class="glyphicon glyphicon-flash ewIcon"/><!-- v12 -->
+		<phrase id="permission" value="Permissions" class="icon-user ewIcon"/><!-- v11 -->
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please select" client="1"/><!-- v12 -->
+		<phrase id="pleasewait" value="Please wait..." client="1"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon"/><!-- v11 -->
+		<phrase id="printerfriendlytext" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev" client="1"/><!-- v12 -->
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="resetpwdemailsent" value="The reset password email has been sent to you"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search"/>
+		<phrase id="quicksearchauto" value="Auto" client="1"/><!-- v11 -->
+		<phrase id="quicksearchautoshort" value="" client="1"/><!-- v11 -->
+		<phrase id="quicksearchall" value="All keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchallshort" value="All" client="1"/><!-- v11 -->
+		<phrase id="quicksearchany" value="Any keywords" client="1"/><!-- v11 -->
+		<phrase id="quicksearchanyshort" value="Any" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexact" value="Exact match" client="1"/><!-- v11 -->
+		<phrase id="quicksearchexactshort" value="Exact" client="1"/><!-- v11 -->
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration"/>
+		<phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+		<phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resendregisteremailbtn" value="Resend registration email"/><!-- v12 -->
+		<phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent"/><!-- v12 -->
+		<phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed"/><!-- v12 -->
+		<phrase id="resetconcurrentuserbtn" value="Reset concurrent user session"/><!-- v12 -->
+		<phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'"/><!-- v12 -->
+		<phrase id="resetloginretrybtn" value="Reset login retry count"/><!-- v12 -->
+		<phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset"/><!-- v12 -->
+		<phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'"/><!-- v12 -->
+		<phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="resetsearch" value="Reset"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="savebtn" value="Save"/><!-- v11 -->
+		<phrase id="savecurrentfilter" value="Save current filter"/><!-- v12 -->
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="searchbtn" value="Search" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+		<phrase id="searchpanel" value="Search Panel"/><!-- v11 -->
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v12 -->
+		<phrase id="sessionexpired" value="Your session has expired. Please login again!" client="1"/><!-- v12 -->
+		<phrase id="setpasswordexpiredbtn" value="Set password expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired"/><!-- v12 -->
+		<phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired"/><!-- v12 -->
+		<phrase id="showallbtn" value="Show all" class="icon-reset-search ewIcon"/><!-- v11 -->
+		<phrase id="showall" value="Show all"/><!-- v11 -->
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+		<phrase id="updateselectall" value="Select all"/><!-- v11 -->
+		<phrase id="updateselectedlink" value="Update Selected Records" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="uploading" value="Uploading..." client="1"/>
+		<phrase id="uploadstart" value="Start" client="1"/>
+		<phrase id="uploadcancel" value="Cancel" client="1"/>
+		<phrase id="uploaddelete" value="Delete" client="1"/>
+		<phrase id="uploadoverwrite" value="Overwrite old file?" client="1"/>
+		<phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+		<phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+		<phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded"/>
+		<phrase id="uploaderrmsg4" value="No file was uploaded"/>
+		<phrase id="uploaderrmsg6" value="Missing a temporary folder"/>
+		<phrase id="uploaderrmsg7" value="Failed to write file to disk"/>
+		<phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1"/>
+		<phrase id="uploaderrmsgminfilesize" value="File is too small" client="1"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width"/>
+		<phrase id="uploaderrmsgminwidth" value="Image requires a minimum width"/>
+		<phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height"/>
+		<phrase id="uploaderrmsgminheight" value="Image requires a minimum height"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1"/>
+		<phrase id="useradministrator" value="Administrator" client="1"/><!-- v12 -->
+		<phrase id="useranonymous" value="Anonymous" client="1"/><!-- v12 -->
+		<phrase id="userdefault" value="Default" client="1"/><!-- v12 -->
+		<phrase id="useremail" value="Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1"/><!-- v12 -->
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="valuenotexist" value="Value does not exist" client="1"/><!-- v11 -->
+		<phrase id="view" value="View"/>
+		<phrase id="viewimagegallery" value="Click to view image"/><!-- v12 -->
+		<phrase id="viewlink" value="View" class="icon-view ewIcon"/><!-- v11 -->
+		<phrase id="viewpageaddlink" value="Add" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+		<phrase id="viewpagecopylink" value="Copy" class="icon-copy ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedeletelink" value="Delete" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit" class="icon-edit ewIcon"/><!-- v11 -->
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables"/>
+		<phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+		<phrase id="equal" value="="/><!-- v12 -->
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="does not contain"/><!-- v11.0.3 -->
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="ends with" value="ends with"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+		<phrase id="errorpasstooshort" value="Password too short. Minimum %n characters."/>
+		<phrase id="errorpasstoolong" value="Password too long. Maximum %n characters."/>
+		<phrase id="errorpassdoesnotincludeletter" value="Password must contain at least one lowercase character"/>
+		<phrase id="errorpassdoesnotincludecaps" value="Password must contain at least one uppercase character"/>
+		<phrase id="errorpassdoesnotincludenumber" value="Password must contain at least one numeric digit."/>
+		<phrase id="errorpassdoesnotincludesymbol" value="Password must contain at least one symbol or special character"/>
+		<phrase id="errorpasscouldnotbesame" value="New password cannot be the same as the old password"/>
+		<phrase id="mismatch" value="Mismatch"/>
+		<phrase id="match" value="Match"/>
+		<phrase id="empty" value="Empty"/>
+		<phrase id="veryweak" value="Very weak"/>
+		<phrase id="weak" value="Weak"/>
+		<phrase id="better" value="Average"/>
+		<phrase id="good" value="Good"/>
+		<phrase id="strong" value="Strong"/>
+		<phrase id="strongest" value="Very strong"/>
+		<phrase id="iagreewith" value="I agree with"/>
+		<phrase id="print" value="Print"/>
+		<phrase id="iagree" value="I Agree and Proceed!"/>
+		<phrase id="tactitle" value="Terms and Conditions"/>
+		<phrase id="taccontent" value="&lt;i&gt;Terms and &lt;u&gt;Conditions&lt;/u&gt;&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;Enter terms and conditions here...&lt;br /&gt;&lt;br /&gt;All standard HTML formatting tags may be included."/>
+		<phrase id="tacnotavailable" value="Terms and Conditions are currently unavailable"/>
+		<phrase id="alertifysessionextended" value="Session has been successfully extended" client="1"/>
+		<phrase id="alertifyalert" value="Alert" client="1"/>
+		<phrase id="alertifyconfirm" value="Confirm" client="1"/>
+		<phrase id="alertifyprompt" value="Prompt" client="1"/>
+		<phrase id="alertifyadd" value="Adding ..." client="1"/>
+		<phrase id="alertifyaddconfirm" value="Add new record?"/>
+		<phrase id="alertifyedit" value="Updating ..." client="1"/>
+		<phrase id="alertifyeditconfirm" value="Proceed with update?"/>
+		<phrase id="alertifysavegrid" value="Saving the grid ..." client="1"/>
+		<phrase id="alertifysavegridconfirm" value="Proceed with save the grid?"/>
+		<phrase id="alertifydelete" value="Deleting ..." client="1"/>
+		<phrase id="alertifydeleteconfirm" value="Proceed with deletion?"/>
+		<phrase id="alertifycancel" value="Cancelling ..." client="1"/>
+		<phrase id="alertifyprocessing" value="Processing ..." client="1"/>
+		<phrase id="myokmessage" value="OK" client="1"/>
+		<phrase id="mycancelmessage" value="Cancel" client="1"/>
+		<phrase id="pageprocessingtime" value="Page processing time:"/>
+		<phrase id="welcome" value="Welcome"/>
+		<phrase id="asktologout" value="Are you sure you want to logout?"/>
+		<phrase id="yes" value="Yes"/>
+		<phrase id="no" value="No"/>
+		<phrase id="permissionprinterfriendly" value="Printer Friendly"/>
+		<phrase id="permissionexporttohtml" value="Export to HTML"/>
+		<phrase id="permissionexporttoexcel" value="Export to Excel"/>
+		<phrase id="permissionexporttoword" value="Export to Word"/>
+		<phrase id="permissionexporttopdf" value="Export to PDF"/>
+		<phrase id="permissionexporttoxml" value="Export to XML"/>
+		<phrase id="permissionexporttocsv" value="Export to CSV"/>
+		<phrase id="permissionexporttoemail" value="Export to Email"/>
+		<phrase id="maximumrecordsperpage" value="Maximum %t records per page."/>
+		<phrase id="help" value="Help"/>
+		<phrase id="helpnotavailable" value="Sorry - no help available for this page"/>
+		<phrase id="aboutus" value="About Us"/>
+		<phrase id="tactitle" value="Terms and Conditions"/>
+		<phrase id="taccontent" value="&lt;i&gt;Terms and &lt;u&gt;Conditions&lt;/u&gt;&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;Enter terms and conditions here...&lt;br /&gt;&lt;br /&gt;All standard HTML formatting tags may be included."/>
+		<phrase id="tacnotavailable" value="Terms and Conditions are currently unavailable"/>
+		<phrase id="backtotop" value="Back to Top"/>
+		<phrase id="logchangepassword" value="changed the password"/>
+		<phrase id="logresetpassword" value="reset the password"/>
+		<phrase id="longrecno" value="Record Number"/>
+		<phrase id="shortrecno" value="#"/>
+		<phrase id="audittrailunknownuserloggedin" value="Unknown user: '%u' attempted to log in"/>
+		<phrase id="exceedmaxretrynew" value="Exceed maximum login retry count. Account is locked. Please try again in %t."/>
+		<phrase id="days" value="day(s)"/>
+		<phrase id="hours" value="hour(s)"/>
+		<phrase id="minutes" value="minute(s)"/>
+		<phrase id="seconds" value="second(s)"/>
+		<phrase id="useralreadyloggedin" value="User '%u' already logged in and the session has been automatically removed. &lt;br /&gt;&lt;br /&gt;Please re-login now!"/>
+		<phrase id="addbreadcrumblinks" value="Add Breadcrumb Link"/>
+		<phrase id="addbreadcrumblinksnodetails" value="Please enter the required details"/>
+		<phrase id="addbreadcrumblinksnoparent" value="Operation failed - Page Title Parent does not exist in the breadcrumb links table"/>
+		<phrase id="addbreadcrumblinksduplicate" value="Operation failed - Page Title &lt;strong&gt;%s&lt;/strong&gt; already exists in the breadcrumb links table"/>
+		<phrase id="addbreadcrumblinksfailed" value="Operation failed - please review your entries"/>
+		<phrase id="addbreadcrumblinkssuccess" value="Operation successful - breadcrumb link &lt;strong&gt;%s&lt;/strong&gt; has been added"/>
+		<phrase id="deletebreadcrumblinks" value="Delete Breadcrumb Link"/>
+		<phrase id="deletebreadcrumblinkswarning" value="Warning: Removing a parent breadcrumb link will automatically delete all the child links below it. Take care as the deletion process cannot be reversed!"/>
+		<phrase id="deletebreadcrumblinksnodetails" value="Please select a breadcrumb link record or Page Title"/>
+		<phrase id="deletebreadcrumblinksnodata" value="Operation failed - there is no data in the breadcrumb links table"/>
+		<phrase id="deletebreadcrumblinksnotfound" value="Operation failed - Page Title does not exist in the breadcrumb links table"/>
+		<phrase id="deletebreadcrumblinksfailed" value="Operation failed - please review your selection"/>
+		<phrase id="deletebreadcrumblinkssuccess" value="Operation successful - breadcrumb link &lt;strong&gt;%s&lt;/strong&gt; has been deleted"/>
+		<phrase id="movebreadcrumblinks" value="Move Breadcrumb Link"/>
+		<phrase id="movebreadcrumblinksnodetails" value="Operation failed - please review your selections"/>
+		<phrase id="movebreadcrumblinkssame" value="Operation failed - New Root should be different to Current Root"/>
+		<phrase id="movebreadcrumblinksnodata" value="Operation failed - there is no data in the breadcrumb links table"/>
+		<phrase id="movebreadcrumblinksnoroot" value="Operation failed - New Root does not exist in breadcrumb links table"/>
+		<phrase id="movebreadcrumblinksnotitle" value="Operation failed - current Page Title does not exist in breadcrumb links table"/>
+		<phrase id="movebreadcrumblinksfailed" value="Operation failed - please review your selections"/>
+		<phrase id="movebreadcrumblinkssuccess" value="Operation successful - breadcrumb link &lt;strong&gt;%s&lt;/strong&gt; has been moved below &lt;strong&gt;%s&lt;/strong&gt;"/>
+		<phrase id="checkbreadcrumblinks" value="Check Breadcrumb Link"/>
+		<phrase id="checkbreadcrumblinksnodetails" value="Please select a breadcrumb link record or Page Title"/>
+		<phrase id="checkbreadcrumblinksnodata" value="Operation failed - there is no data in the breadcrumb links table"/>
+		<phrase id="checkbreadcrumblinksnotfound" value="Operation failed - Page Title does not exist in the breadcrumb links table"/>
+		<phrase id="checkbreadcrumblinksfailed" value="Operation failed - please review your selection"/>
+		<phrase id="checkbreadcrumblinksadvice" value="The breadcrumb trail below is only to indicate the full path of the specified breadcrumb link and to assist in identifying its parent links"/>
+		<phrase id="checkbreadcrumblinksnotdefinedinxml" value="The selected Page Title is not defined in XML language file, yet"/>
+		<phrase id="announcementtext" value="This is a sample announcement ..."/>
+		<phrase id="maintenancetitle" value="Maintenance"/>
+		<phrase id="maintenanceusermessage" value="Sorry... routine database maintenance is being performed. &lt;br /&gt;This part of the website is currently unavailable. &lt;br /&gt; Please retry in "/>
+		<phrase id="maintenanceusermessageunknown" value="Sorry... routine database maintenance is currently being performed. &lt;br /&gt;This part of the website is currently unavailable."/>
+		<phrase id="maintenanceadminmessage" value="Maintenance mode is enabled - concluding in "/>
+		<phrase id="maintenanceadminmessageunknown" value="Maintenance mode is enabled"/>
+		<phrase id="maintenanceadminmessageerror" value="Maintenance mode has not concluded as per the schedule - please investigate!"/>
+		<phrase id="maintenanceendwarning" value="Maintenance Complete must be later than the current time"/>
+		<phrase id="maintenanceretry" value="Try again..."/>
+		<phrase id="registersuccesspending" value="Registration successful - a confirmation has been sent to your email address"/>
+		<phrase id="accounthasbeenactivated" value="Account '%u' has been activated"/>
+		<phrase id="subjectaccountactivated" value="Your Account Has Been Activated in"/>
+		<phrase id="invalidaccount" value="Invalid account (or account was already activated)"/>
+		<phrase id="userdeactivated" value="The specified user account has not been activated"/>
+		<phrase id="subjectrequestpasswordconfirmation" value="Request Password Confirmation in"/>
+		<phrase id="pwdactkey" value="Please check your inbox to proceed"/>
+		<phrase id="subjectsendnewpassword" value="New Password"/>
+		<phrase id="subjectchangepassword" value="Password Changed in"/>
+		<phrase id="subjectregistrationinformation" value="Registration Information in"/>
+		<phrase id="resendregisteremailpasswordencrypted" value="(Encrypted, please reset from Login page in case you forgot your Password)"/>
+		<phrase id="sessioncountdown" value="Your session will expire in %s seconds." client="1"/><!-- v12 -->
+	</global>
+	<project><phrase id="bodytitle" value="Stock Inventory Management"/>
+<phrase id="footertext" value="&amp;copy;2018-2019 &lt;a href='http://www.jonsobier.com' title='Jonathan Sobier - Web Developer' target='_blank'&gt;JS Development&lt;/a&gt;. All rights reserved."/>
+<menu id="183"><phrase id="menutext" value="Dashboard"/>
+</menu>
+<menu id="100"><phrase id="menutext" value="Stock Items"/>
+</menu>
+<menu id="99"><phrase id="menutext" value="Stock Categories"/>
+</menu>
+<menu id="102"><phrase id="menutext" value="Unit of Measurement"/>
+</menu>
+<menu id="101"><phrase id="menutext" value="Suppliers/Distributors"/>
+</menu>
+<menu id="95"><phrase id="menutext" value="Purchases"/>
+</menu>
+<menu id="91"><phrase id="menutext" value="Customers"/>
+</menu>
+<menu id="96"><phrase id="menutext" value="Purchase Details"/>
+</menu>
+<menu id="182"><phrase id="menutext" value="View Purchase Details"/>
+</menu>
+<menu id="97"><phrase id="menutext" value="Sales"/>
+</menu>
+<menu id="98"><phrase id="menutext" value="Sales Detail"/>
+</menu>
+<menu id="181"><phrase id="menutext" value="View Sales Details"/>
+</menu>
+<menu id="180"><phrase id="menutext" value="Outstanding Invoices"/>
+</menu>
+<menu id="106"><phrase id="menutext" value="Outstanding Purchase Invoices"/>
+</menu>
+<menu id="104"><phrase id="menutext" value="Invoices Paid"/>
+</menu>
+<menu id="89"><phrase id="menutext" value="User Level Permissions"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="Visitor Statistics"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="Statistics Browser and OS"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="Statistics per IP"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="Statistics per Day"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="Statistics per Hour"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Statistics per Month"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="Statistics per Year"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="Administrator"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="Announcement"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="Breadcrumb Links"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Languages"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="Application Settings"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="Themes/Colors"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Timezone"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Users"/>
+</menu>
+<menu id="84"><phrase id="menutext" value="Manage Breadcrumb Links"/>
+</menu>
+<menu id="85"><phrase id="menutext" value="Add New Breadcrumb Links"/>
+</menu>
+<menu id="86"><phrase id="menutext" value="Check Breadcrumb Links"/>
+</menu>
+<menu id="87"><phrase id="menutext" value="Move Breadcrumb Links"/>
+</menu>
+<menu id="88"><phrase id="menutext" value="Delete Breadcrumb Links"/>
+</menu>
+<menu id="90"><phrase id="menutext" value="User Levels"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-question-sign'&gt;&lt;/i&gt; Help (Categories)"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-question-sign'&gt;&lt;/i&gt; Help (Details)"/>
+</menu>
+<menu id="80"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-info-sign'&gt;&lt;/i&gt; About Us"/>
+</menu>
+<menu id="83"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-warning-sign'&gt;&lt;/i&gt; Terms and Conditions"/>
+</menu>
+<menu id="34"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-wrench'&gt;&lt;/i&gt; Settings"/>
+</menu>
+<menu id="35"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-text-width'&gt;&lt;/i&gt; Font Name"/>
+</menu>
+<menu id="36"><phrase id="menutext" value="Arial"/>
+</menu>
+<menu id="37"><phrase id="menutext" value="Calibri"/>
+</menu>
+<menu id="38"><phrase id="menutext" value="Century"/>
+</menu>
+<menu id="39"><phrase id="menutext" value="Century Gothic"/>
+</menu>
+<menu id="40"><phrase id="menutext" value="Comic Sans MS"/>
+</menu>
+<menu id="41"><phrase id="menutext" value="Courier New"/>
+</menu>
+<menu id="42"><phrase id="menutext" value="Futura Normal"/>
+</menu>
+<menu id="43"><phrase id="menutext" value="Lucida Sans"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="Lucida Sans Typewriter"/>
+</menu>
+<menu id="45"><phrase id="menutext" value="MS Gothic"/>
+</menu>
+<menu id="46"><phrase id="menutext" value="MS Sans Serif"/>
+</menu>
+<menu id="47"><phrase id="menutext" value="Tahoma"/>
+</menu>
+<menu id="48"><phrase id="menutext" value="Times New Roman"/>
+</menu>
+<menu id="49"><phrase id="menutext" value="Verdana"/>
+</menu>
+<menu id="50"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-text-height'&gt;&lt;/i&gt; Font Size"/>
+</menu>
+<menu id="51"><phrase id="menutext" value="11px"/>
+</menu>
+<menu id="52"><phrase id="menutext" value="12px"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="13px"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="14px"/>
+</menu>
+<menu id="56"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-picture'&gt;&lt;/i&gt; Themes/Colors"/>
+</menu>
+<menu id="57"><phrase id="menutext" value="Black"/>
+</menu>
+<menu id="58"><phrase id="menutext" value="Blue"/>
+</menu>
+<menu id="59"><phrase id="menutext" value="Dark"/>
+</menu>
+<menu id="60"><phrase id="menutext" value="Dark Glass"/>
+</menu>
+<menu id="61"><phrase id="menutext" value="Default"/>
+</menu>
+<menu id="62"><phrase id="menutext" value="Glass"/>
+</menu>
+<menu id="63"><phrase id="menutext" value="Gray"/>
+</menu>
+<menu id="64"><phrase id="menutext" value="Green"/>
+</menu>
+<menu id="65"><phrase id="menutext" value="Maroon"/>
+</menu>
+<menu id="66"><phrase id="menutext" value="Olive"/>
+</menu>
+<menu id="67"><phrase id="menutext" value="Professional"/>
+</menu>
+<menu id="68"><phrase id="menutext" value="Purple"/>
+</menu>
+<menu id="69"><phrase id="menutext" value="Red"/>
+</menu>
+<menu id="70"><phrase id="menutext" value="Sand"/>
+</menu>
+<menu id="71"><phrase id="menutext" value="Silver"/>
+</menu>
+<menu id="72"><phrase id="menutext" value="White"/>
+</menu>
+<menu id="73"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-list'&gt;&lt;/i&gt; Menu Positions"/>
+</menu>
+<menu id="74"><phrase id="menutext" value="Top (Horizontal)"/>
+</menu>
+<menu id="75"><phrase id="menutext" value="Left (Vertical)"/>
+</menu>
+<menu id="76"><phrase id="menutext" value="&lt;i class='glyphicon glyphicon-phone'&gt;&lt;/i&gt; Table Width Style"/>
+</menu>
+<menu id="77"><phrase id="menutext" value="Scroll"/>
+</menu>
+<menu id="78"><phrase id="menutext" value="Auto"/>
+</menu>
+<menu id="79"><phrase id="menutext" value="100%"/>
+</menu>
+<menu id="81"><phrase id="menutext" value="Top"/>
+</menu>
+<table id="a_stock_items"><phrase id="tblcaption" value="Stock Items"/>
+<field id="stock_id"><phrase id="fldcaption" value="Stock ID"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Supplier Number"/>
+</field>
+<field id="stock_number"><phrase id="fldcaption" value="Item UPC"/>
+</field>
+<field id="stock_name"><phrase id="fldcaption" value="Item Name"/>
+</field>
+<field id="unit_of_measurement"><phrase id="fldcaption" value="Unit Of Measurement"/>
+</field>
+<field id="purchasing_price"><phrase id="fldcaption" value="Purchasing Price"/>
+</field>
+<field id="selling_price"><phrase id="fldcaption" value="Selling Price"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="Quantity"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_suppliers"><phrase id="tblcaption" value="Vendor/Supplier"/>
+<field id="supplier_id"><phrase id="fldcaption" value="Vendor/Supplier ID"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Supplier Number"/>
+</field>
+<field id="supplier_name"><phrase id="fldcaption" value="Supplier Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="country"><phrase id="fldcaption" value="Country"/>
+</field>
+<field id="contact_person"><phrase id="fldcaption" value="Representative"/>
+</field>
+<field id="phone_number"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="mobile_number"><phrase id="fldcaption" value="Mobile Number"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="balance"><phrase id="fldcaption" value="Balance"/>
+</field>
+<field id="is_stock_available"><phrase id="fldcaption" value="Is Stock Available?"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_purchases"><phrase id="tblcaption" value="Orders"/>
+<field id="purchase_id"><phrase id="fldcaption" value="Order ID"/>
+</field>
+<field id="purchase_number"><phrase id="fldcaption" value="Order Number"/>
+</field>
+<field id="purchase_date"><phrase id="fldcaption" value="Order Date"/>
+</field>
+<field id="supplier_id"><phrase id="fldcaption" value="Vendor/Supplier ID"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="total_amount"><phrase id="fldcaption" value="Total Amount"/>
+<phrase id="flderrmsg" value="Please enter the item being ordered from table below!"/>
+<phrase id="fldtitle" value="Item being ordered autofilled from the table below"/>
+</field>
+<field id="total_payment"><phrase id="fldcaption" value="Total Payment"/>
+<phrase id="flderrmsg" value="Please enter the payment!"/>
+<phrase id="fldtitle" value="You may fill in the payment after selecting item below"/>
+</field>
+<field id="total_balance"><phrase id="fldcaption" value="Total Balance"/>
+<phrase id="flderrmsg" value="Please enter the balance!"/>
+<phrase id="fldtitle" value="Autofilled-in from substracting Amount by Payment"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_purchases_detail"><phrase id="tblcaption" value="Purchases Detail"/>
+<field id="purchase_id"><phrase id="fldcaption" value="Purchase ID"/>
+</field>
+<field id="purchase_number"><phrase id="fldcaption" value="Purchase Number"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Supplier Number"/>
+</field>
+<field id="stock_item"><phrase id="fldcaption" value="Stock Item"/>
+</field>
+<field id="purchasing_quantity"><phrase id="fldcaption" value="Purchasing Quantity"/>
+</field>
+<field id="purchasing_price"><phrase id="fldcaption" value="Purchasing Price"/>
+</field>
+<field id="selling_price"><phrase id="fldcaption" value="Selling Price"/>
+</field>
+<field id="purchasing_total_amount"><phrase id="fldcaption" value="Purchasing Total Amount"/>
+</field>
+</table>
+<table id="a_customers"><phrase id="tblcaption" value="Customers"/>
+<field id="customer_id"><phrase id="fldcaption" value="Customer ID"/>
+</field>
+<field id="customer_number"><phrase id="fldcaption" value="Customer Number"/>
+</field>
+<field id="customer_name"><phrase id="fldcaption" value="Customer Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="country"><phrase id="fldcaption" value="Country"/>
+</field>
+<field id="contact_person"><phrase id="fldcaption" value="Contact Person"/>
+</field>
+<field id="phone_number"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="mobile_number"><phrase id="fldcaption" value="Mobile Number"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="balance"><phrase id="fldcaption" value="Balance"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_sales"><phrase id="tblcaption" value="Sales"/>
+<field id="sales_id"><phrase id="fldcaption" value="Sales ID"/>
+</field>
+<field id="sales_number"><phrase id="fldcaption" value="Sales Number"/>
+</field>
+<field id="sales_date"><phrase id="fldcaption" value="Sales Date"/>
+</field>
+<field id="customer_id"><phrase id="fldcaption" value="Customer ID"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="total_amount"><phrase id="fldcaption" value="Total Amount"/>
+<phrase id="flderrmsg" value="Please enter the item sold from table below!"/>
+<phrase id="fldtitle" value="Item sold was autofilled by table below!"/>
+</field>
+<field id="discount_type"><phrase id="fldcaption" value="Discount Type"/>
+<phrase id="fldtagvalue1" value="P"/>
+<phrase id="fldtagcaption1" value="Discount Percentage"/>
+<phrase id="fldtagvalue2" value="A"/>
+<phrase id="fldtagcaption2" value="Discount Amount"/>
+</field>
+<field id="discount_percentage"><phrase id="fldcaption" value="Discount Percentage"/>
+</field>
+<field id="discount_amount"><phrase id="fldcaption" value="Discount Amount"/>
+</field>
+<field id="tax_percentage"><phrase id="fldcaption" value="Tax Percentage"/>
+</field>
+<field id="tax_amount"><phrase id="fldcaption" value="Tax Amount"/>
+</field>
+<field id="tax_description"><phrase id="fldcaption" value="Tax Description"/>
+</field>
+<field id="final_total_amount"><phrase id="fldcaption" value="Final Total Amount"/>
+<phrase id="fldtitle" value="Autofilled-in by discount, tax, and sales item below"/>
+</field>
+<field id="total_payment"><phrase id="fldcaption" value="Total Payment"/>
+<phrase id="flderrmsg" value="Please enter the payment!"/>
+<phrase id="fldtitle" value="You may fill in the payment after selecting item below"/>
+</field>
+<field id="total_balance"><phrase id="fldcaption" value="Total Balance"/>
+<phrase id="flderrmsg" value="Please enter the balance!"/>
+<phrase id="fldtitle" value="Autofilled-in from substracting Amount by Payment"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_sales_detail"><phrase id="tblcaption" value="Sales Detail"/>
+<field id="sales_id"><phrase id="fldcaption" value="Sales ID"/>
+</field>
+<field id="sales_number"><phrase id="fldcaption" value="Sales Number"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Vendor/Supplier Number"/>
+</field>
+<field id="stock_item"><phrase id="fldcaption" value="Stock Item"/>
+</field>
+<field id="sales_quantity"><phrase id="fldcaption" value="Quantity Sold"/>
+</field>
+<field id="purchasing_price"><phrase id="fldcaption" value="Purchasing Price"/>
+</field>
+<field id="sales_price"><phrase id="fldcaption" value="Sales Price"/>
+</field>
+<field id="sales_total_amount"><phrase id="fldcaption" value="Total Amount"/>
+</field>
+</table>
+<table id="a_payment_transactions"><phrase id="tblcaption" value="Payment Transactions"/>
+<field id="payment_id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="ref_id"><phrase id="fldcaption" value="Ref ID"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="Type"/>
+<phrase id="fldtagvalue1" value="sales"/>
+<phrase id="fldtagcaption1" value="Sales"/>
+<phrase id="fldtagvalue2" value="purchase"/>
+<phrase id="fldtagcaption2" value="Purchase"/>
+</field>
+<field id="customer"><phrase id="fldcaption" value="Customer"/>
+</field>
+<field id="supplier"><phrase id="fldcaption" value="Vendor/Supplier"/>
+</field>
+<field id="sub_total"><phrase id="fldcaption" value="Sub Total"/>
+</field>
+<field id="payment"><phrase id="fldcaption" value="Payment"/>
+<phrase id="flderrmsg" value="Please enter the payment!"/>
+</field>
+<field id="balance"><phrase id="fldcaption" value="Balance"/>
+</field>
+<field id="due_date"><phrase id="fldcaption" value="Due Date"/>
+</field>
+<field id="date_transaction"><phrase id="fldcaption" value="Transaction Date"/>
+</field>
+<field id="date_added"><phrase id="fldcaption" value="Date Added"/>
+</field>
+<field id="added_by"><phrase id="fldcaption" value="Added By"/>
+</field>
+<field id="date_updated"><phrase id="fldcaption" value="Date Updated"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+</table>
+<table id="a_stock_categories"><phrase id="tblcaption" value="Inventory Categories"/>
+<field id="category_id"><phrase id="fldcaption" value="Category ID"/>
+</field>
+<field id="category_name"><phrase id="fldcaption" value="Category Name"/>
+</field>
+</table>
+<table id="a_unit_of_measurement"><phrase id="tblcaption" value="Unit of Measurement"/>
+<field id="uom_id"><phrase id="fldcaption" value="UOM ID"/>
+</field>
+<field id="uom_description"><phrase id="fldcaption" value="UOM Description"/>
+</field>
+</table>
+<table id="announcement"><phrase id="tblcaption" value="Announcement"/>
+<field id="announcement_id"><phrase id="fldcaption" value="Announcement ID"/>
+</field>
+<field id="is_active"><phrase id="fldcaption" value="Is Active"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="topic"><phrase id="fldcaption" value="Topic"/>
+</field>
+<field id="message"><phrase id="fldcaption" value="Message"/>
+</field>
+<field id="date_lastupdate"><phrase id="fldcaption" value="Date Last Update"/>
+</field>
+<field id="_language"><phrase id="fldcaption" value="Language"/>
+</field>
+<field id="auto_publish"><phrase id="fldcaption" value="Auto Publish"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="date_start"><phrase id="fldcaption" value="Date Start"/>
+</field>
+<field id="date_end"><phrase id="fldcaption" value="Date End"/>
+</field>
+<field id="date_created"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="created_by"><phrase id="fldcaption" value="Created By"/>
+</field>
+<field id="translated_id"><phrase id="fldcaption" value="Translated ID"/>
+</field>
+</table>
+<table id="breadcrumblinks"><phrase id="tblcaption" value="Breadcrumb Links"/>
+<field id="page_title"><phrase id="fldcaption" value="Page Title"/>
+</field>
+<field id="page_url"><phrase id="fldcaption" value="Page URL"/>
+</field>
+<field id="lft"><phrase id="fldcaption" value="Lft"/>
+</field>
+<field id="rgt"><phrase id="fldcaption" value="Rgt"/>
+</field>
+</table>
+<table id="help"><phrase id="tblcaption" value="Help"/>
+<field id="help_id"><phrase id="fldcaption" value="Help ID"/>
+</field>
+<field id="_language"><phrase id="fldcaption" value="Language"/>
+</field>
+<field id="topic"><phrase id="fldcaption" value="Topic"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="order"><phrase id="fldcaption" value="Order"/>
+</field>
+<field id="display_in_page"><phrase id="fldcaption" value="Display in Page"/>
+</field>
+<field id="updated_by"><phrase id="fldcaption" value="Updated By"/>
+</field>
+<field id="last_updated"><phrase id="fldcaption" value="Last Updated"/>
+</field>
+</table>
+<table id="help_categories"><phrase id="tblcaption" value="Help Categories"/>
+<field id="category_id"><phrase id="fldcaption" value="Category ID"/>
+</field>
+<field id="_language"><phrase id="fldcaption" value="Language"/>
+</field>
+<field id="category_description"><phrase id="fldcaption" value="Category Description"/>
+</field>
+</table>
+<table id="languages"><phrase id="tblcaption" value="Languages"/>
+<field id="language_code"><phrase id="fldcaption" value="Language Code"/>
+</field>
+<field id="language_name"><phrase id="fldcaption" value="Language Name"/>
+</field>
+<field id="_default"><phrase id="fldcaption" value="Default"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="site_logo"><phrase id="fldcaption" value="Site Logo"/>
+</field>
+<field id="site_title"><phrase id="fldcaption" value="Site Title"/>
+</field>
+<field id="default_thousands_separator"><phrase id="fldcaption" value="Default Thousands Separator"/>
+</field>
+<field id="default_decimal_point"><phrase id="fldcaption" value="Default Decimal Point"/>
+</field>
+<field id="default_currency_symbol"><phrase id="fldcaption" value="Default Currency Symbol"/>
+</field>
+<field id="default_money_thousands_separator"><phrase id="fldcaption" value="Default Money Thousands Separator"/>
+</field>
+<field id="default_money_decimal_point"><phrase id="fldcaption" value="Default Money Decimal Point"/>
+</field>
+<field id="terms_and_condition_text"><phrase id="fldcaption" value="Terms And Condition Text"/>
+</field>
+<field id="announcement_text"><phrase id="fldcaption" value="Announcement Text"/>
+</field>
+<field id="about_text"><phrase id="fldcaption" value="About Text"/>
+</field>
+</table>
+<table id="settings"><phrase id="tblcaption" value="Settings"/>
+<phrase id="tblpagecaption1" value="General"/>
+<phrase id="tblpagecaption2" value="Email"/>
+<phrase id="tblpagecaption3" value="Timezone"/>
+<phrase id="tblpagecaption4" value="Maintenance"/>
+<phrase id="tblpagecaption5" value="Registration"/>
+<phrase id="tblpagecaption6" value="Login"/>
+<phrase id="tblpagecaption7" value="Header"/>
+<phrase id="tblpagecaption8" value="Footer"/>
+<phrase id="tblpagecaption9" value="Pagination"/>
+<phrase id="tblpagecaption10" value="Table"/>
+<phrase id="tblpagecaption11" value="Message"/>
+<phrase id="tblpagecaption12" value="Preview Detail"/>
+<phrase id="tblpagecaption13" value="Password"/>
+<phrase id="tblpagecaption14" value="Export Options"/>
+<field id="option_id"><phrase id="fldcaption" value="Option ID"/>
+</field>
+<field id="option_default"><phrase id="fldcaption" value="Option Default"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="default_theme"><phrase id="fldcaption" value="Default Theme"/>
+</field>
+<field id="font_name"><phrase id="fldcaption" value="Font Name"/>
+<phrase id="fldtagvalue1" value="arial"/>
+<phrase id="fldtagcaption1" value="Arial"/>
+<phrase id="fldtagvalue2" value="calibri"/>
+<phrase id="fldtagcaption2" value="Calibri"/>
+<phrase id="fldtagvalue3" value="century"/>
+<phrase id="fldtagcaption3" value="Century"/>
+<phrase id="fldtagvalue4" value="centurygothic"/>
+<phrase id="fldtagcaption4" value="Century Gothic"/>
+<phrase id="fldtagvalue5" value="comicsansms"/>
+<phrase id="fldtagcaption5" value="Comic Sans MS"/>
+<phrase id="fldtagvalue6" value="couriernew"/>
+<phrase id="fldtagcaption6" value="Courier New"/>
+<phrase id="fldtagvalue7" value="futuranormal"/>
+<phrase id="fldtagcaption7" value="Futura Normal"/>
+<phrase id="fldtagvalue8" value="lucidasans"/>
+<phrase id="fldtagcaption8" value="Lucida Sans"/>
+<phrase id="fldtagvalue9" value="lucidasanstypewriter"/>
+<phrase id="fldtagcaption9" value="Lucida Sans Typewriter"/>
+<phrase id="fldtagvalue10" value="msgothic"/>
+<phrase id="fldtagcaption10" value="MS Gothic"/>
+<phrase id="fldtagvalue11" value="mssansserif"/>
+<phrase id="fldtagcaption11" value="MS Sans Serif"/>
+<phrase id="fldtagvalue12" value="tahoma"/>
+<phrase id="fldtagcaption12" value="Tahoma"/>
+<phrase id="fldtagvalue13" value="timesnewroman"/>
+<phrase id="fldtagcaption13" value="Times New Roman"/>
+<phrase id="fldtagvalue14" value="verdana"/>
+<phrase id="fldtagcaption14" value="Verdana"/>
+</field>
+<field id="font_size"><phrase id="fldcaption" value="Font Size"/>
+<phrase id="fldtagvalue1" value="11px"/>
+<phrase id="fldtagcaption1" value="11px"/>
+<phrase id="fldtagvalue2" value="12px"/>
+<phrase id="fldtagcaption2" value="12px"/>
+<phrase id="fldtagvalue3" value="13px"/>
+<phrase id="fldtagcaption3" value="13px"/>
+<phrase id="fldtagvalue4" value="14px"/>
+<phrase id="fldtagcaption4" value="14px"/>
+</field>
+<field id="show_border_layout"><phrase id="fldcaption" value="Show Border Layout"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_shadow_layout"><phrase id="fldcaption" value="Show Shadow Layout"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="menu_horizontal"><phrase id="fldcaption" value="Menu Horizontal"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="vertical_menu_width"><phrase id="fldcaption" value="Vertical Menu Width"/>
+</field>
+<field id="show_announcement"><phrase id="fldcaption" value="Show Announcement"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="demo_mode"><phrase id="fldcaption" value="Demo Mode"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_page_processing_time"><phrase id="fldcaption" value="Show Page Loading Time"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="allow_user_preferences"><phrase id="fldcaption" value="Allow User Preferences"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="smtp_server"><phrase id="fldcaption" value="SMTP Server"/>
+</field>
+<field id="smtp_server_port"><phrase id="fldcaption" value="SMTP Server Port"/>
+</field>
+<field id="smtp_server_username"><phrase id="fldcaption" value="SMTP Server Username"/>
+</field>
+<field id="smtp_server_password"><phrase id="fldcaption" value="SMTP Server Password"/>
+</field>
+<field id="sender_email"><phrase id="fldcaption" value="Sender Email"/>
+</field>
+<field id="recipient_email"><phrase id="fldcaption" value="Recipient Email"/>
+</field>
+<field id="use_default_locale"><phrase id="fldcaption" value="Use Default Locale"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="default_language"><phrase id="fldcaption" value="Default Language"/>
+</field>
+<field id="default_timezone"><phrase id="fldcaption" value="Default Timezone"/>
+</field>
+<field id="default_thousands_separator"><phrase id="fldcaption" value="Default Thousands Separator"/>
+</field>
+<field id="default_decimal_point"><phrase id="fldcaption" value="Default Decimal Point"/>
+</field>
+<field id="default_currency_symbol"><phrase id="fldcaption" value="Default Currency Symbol"/>
+</field>
+<field id="default_money_thousands_separator"><phrase id="fldcaption" value="Default Money Thousands Separator"/>
+</field>
+<field id="default_money_decimal_point"><phrase id="fldcaption" value="Default Money Decimal Point"/>
+</field>
+<field id="maintenance_mode"><phrase id="fldcaption" value="Maintenance Mode"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="maintenance_finish_datetime"><phrase id="fldcaption" value="Maintenance Finish Date Time"/>
+</field>
+<field id="auto_normal_after_maintenance"><phrase id="fldcaption" value="Auto Normal After Maintenance"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="allow_user_to_register"><phrase id="fldcaption" value="Allow User To Register"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="suspend_new_user_account"><phrase id="fldcaption" value="Suspend New User Account"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="user_need_activation_after_registered"><phrase id="fldcaption" value="User Need Activation After Registered"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_captcha_on_registration_page"><phrase id="fldcaption" value="Show Captcha On Registration Page"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_terms_and_conditions_on_registration_page"><phrase id="fldcaption" value="Show Terms And Conditions On Registration Page"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="user_auto_login_after_activation_or_registration"><phrase id="fldcaption" value="User Auto Login After Activation Or Registration"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_captcha_on_login_page"><phrase id="fldcaption" value="Show Captcha On Login Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_captcha_on_forgot_password_page"><phrase id="fldcaption" value="Show Captcha On Forgot Password Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_captcha_on_change_password_page"><phrase id="fldcaption" value="Show Captcha On Change Password Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="user_auto_logout_after_idle_in_minutes"><phrase id="fldcaption" value="User Auto Logout After Idle In Minutes"/>
+</field>
+<field id="user_login_maximum_retry"><phrase id="fldcaption" value="User Login Maximum Retry"/>
+</field>
+<field id="user_login_retry_lockout"><phrase id="fldcaption" value="User Login Retry Lockout"/>
+</field>
+<field id="redirect_to_last_visited_page_after_login"><phrase id="fldcaption" value="Redirect To Last Visited Page After Login"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="enable_password_expiry"><phrase id="fldcaption" value="Enable Password Expiry"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="password_expiry_in_days"><phrase id="fldcaption" value="Password Expiry In Days"/>
+</field>
+<field id="show_entire_header"><phrase id="fldcaption" value="Show Entire Header"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="logo_width"><phrase id="fldcaption" value="Logo Width"/>
+</field>
+<field id="show_site_title_in_header"><phrase id="fldcaption" value="Show Site Title In Header"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_current_user_in_header"><phrase id="fldcaption" value="Show Current User In Header"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="text_align_in_header"><phrase id="fldcaption" value="Text Align In Header"/>
+<phrase id="fldtagvalue1" value="left"/>
+<phrase id="fldtagcaption1" value="Left"/>
+<phrase id="fldtagvalue2" value="center"/>
+<phrase id="fldtagcaption2" value="Center"/>
+<phrase id="fldtagvalue3" value="right"/>
+<phrase id="fldtagcaption3" value="Right"/>
+</field>
+<field id="site_title_text_style"><phrase id="fldcaption" value="Site Title Text Style"/>
+<phrase id="fldtagvalue1" value="normal"/>
+<phrase id="fldtagcaption1" value="Normal"/>
+<phrase id="fldtagvalue2" value="capitalize"/>
+<phrase id="fldtagcaption2" value="Capitalize"/>
+<phrase id="fldtagvalue3" value="uppercase"/>
+<phrase id="fldtagcaption3" value="Uppercase"/>
+</field>
+<field id="language_selector_visibility"><phrase id="fldcaption" value="Language Selector Visibility"/>
+<phrase id="fldtagvalue1" value="inheader"/>
+<phrase id="fldtagcaption1" value="In Header"/>
+<phrase id="fldtagvalue2" value="belowheader"/>
+<phrase id="fldtagcaption2" value="Below Header"/>
+<phrase id="fldtagvalue3" value="hidethemall"/>
+<phrase id="fldtagcaption3" value="Hide Them All"/>
+</field>
+<field id="language_selector_align"><phrase id="fldcaption" value="Language Selector Align"/>
+<phrase id="fldtagvalue1" value="autoadjust"/>
+<phrase id="fldtagcaption1" value="Auto Adjust"/>
+<phrase id="fldtagvalue2" value="left"/>
+<phrase id="fldtagcaption2" value="Left"/>
+<phrase id="fldtagvalue3" value="center"/>
+<phrase id="fldtagcaption3" value="Center"/>
+<phrase id="fldtagvalue4" value="right"/>
+<phrase id="fldtagcaption4" value="Right"/>
+</field>
+<field id="show_entire_footer"><phrase id="fldcaption" value="Show Entire Footer"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_text_in_footer"><phrase id="fldcaption" value="Show Text In Footer"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_back_to_top_on_footer"><phrase id="fldcaption" value="Show Back To Top On Footer"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_terms_and_conditions_on_footer"><phrase id="fldcaption" value="Show Terms And Conditions On Footer"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_about_us_on_footer"><phrase id="fldcaption" value="Show About Us On Footer"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="Tidak"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Ya"/>
+</field>
+<field id="pagination_position"><phrase id="fldcaption" value="Pagination Position"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="Top"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="Bottom"/>
+<phrase id="fldtagvalue3" value="3"/>
+<phrase id="fldtagcaption3" value="Top and Bottom"/>
+</field>
+<field id="pagination_style"><phrase id="fldcaption" value="Pagination Style"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="Link"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="Button"/>
+</field>
+<field id="selectable_records_per_page"><phrase id="fldcaption" value="Selectable Records Per Page"/>
+</field>
+<field id="selectable_groups_per_page"><phrase id="fldcaption" value="Selectable Groups Per Page"/>
+</field>
+<field id="default_record_per_page"><phrase id="fldcaption" value="Default Record Per Page"/>
+</field>
+<field id="default_group_per_page"><phrase id="fldcaption" value="Default Group Per Page"/>
+</field>
+<field id="maximum_selected_records"><phrase id="fldcaption" value="Maximum Selected Records"/>
+</field>
+<field id="maximum_selected_groups"><phrase id="fldcaption" value="Maximum Selected Groups"/>
+</field>
+<field id="show_pagenum_if_record_not_over_pagesize"><phrase id="fldcaption" value="Show Page Num If Record Not Over Pagesize"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="table_width_style"><phrase id="fldcaption" value="Table Width Style"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="Scroll"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="Auto"/>
+<phrase id="fldtagvalue3" value="3"/>
+<phrase id="fldtagcaption3" value="100%"/>
+</field>
+<field id="scroll_table_width"><phrase id="fldcaption" value="Scroll Table Width"/>
+</field>
+<field id="scroll_table_height"><phrase id="fldcaption" value="Scroll Table Height"/>
+</field>
+<field id="search_panel_collapsed"><phrase id="fldcaption" value="Search Panel Collapsed"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="filter_panel_collapsed"><phrase id="fldcaption" value="Filter Panel Collapsed"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="show_record_number_on_list_page"><phrase id="fldcaption" value="Show Record Number On List Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_empty_table_on_list_page"><phrase id="fldcaption" value="Show Empty Table On List Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="rows_vertical_align_top"><phrase id="fldcaption" value="Rows Vertical Align Top"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="action_button_alignment"><phrase id="fldcaption" value="Action Button Alignment"/>
+<phrase id="fldtagvalue1" value="Right"/>
+<phrase id="fldtagcaption1" value="Right"/>
+<phrase id="fldtagvalue2" value="Left"/>
+<phrase id="fldtagcaption2" value="Left"/>
+</field>
+<field id="show_add_success_message"><phrase id="fldcaption" value="Show Add Success Message"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_edit_success_message"><phrase id="fldcaption" value="Show Edit Success Message"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="jquery_auto_hide_success_message"><phrase id="fldcaption" value="j Query Auto Hide Success Message"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="use_javascript_message"><phrase id="fldcaption" value="Use Javascript Message"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="login_window_type"><phrase id="fldcaption" value="Login Window Type"/>
+<phrase id="fldtagvalue1" value="popup"/>
+<phrase id="fldtagcaption1" value="Popup"/>
+<phrase id="fldtagvalue2" value="default"/>
+<phrase id="fldtagcaption2" value="Default"/>
+</field>
+<field id="forgot_password_window_type"><phrase id="fldcaption" value="Forgot Password Window Type"/>
+<phrase id="fldtagvalue1" value="popup"/>
+<phrase id="fldtagcaption1" value="Popup"/>
+<phrase id="fldtagvalue2" value="default"/>
+<phrase id="fldtagcaption2" value="Default"/>
+</field>
+<field id="change_password_window_type"><phrase id="fldcaption" value="Change Password Window Type"/>
+<phrase id="fldtagvalue1" value="popup"/>
+<phrase id="fldtagcaption1" value="Popup"/>
+<phrase id="fldtagvalue2" value="default"/>
+<phrase id="fldtagcaption2" value="Default"/>
+</field>
+<field id="registration_window_type"><phrase id="fldcaption" value="Registration Window Type"/>
+<phrase id="fldtagvalue1" value="popup"/>
+<phrase id="fldtagcaption1" value="Popup"/>
+<phrase id="fldtagvalue2" value="default"/>
+<phrase id="fldtagcaption2" value="Default"/>
+</field>
+<field id="show_record_number_on_detail_preview"><phrase id="fldcaption" value="Show Record Number On Detail Preview"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="show_empty_table_in_detail_preview"><phrase id="fldcaption" value="Show Empty Table In Detail Preview"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="detail_preview_table_width"><phrase id="fldcaption" value="Detail Preview Table Width"/>
+</field>
+<field id="password_minimum_length"><phrase id="fldcaption" value="Password Minimum Length"/>
+</field>
+<field id="password_maximum_length"><phrase id="fldcaption" value="Password Maximum Length"/>
+</field>
+<field id="password_must_contain_at_least_one_lower_case"><phrase id="fldcaption" value="Password Must Contain At Least One Lower Case"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_comply_with_minumum_length"><phrase id="fldcaption" value="Password Must Comply With Minumum Length"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_comply_with_maximum_length"><phrase id="fldcaption" value="Password Must Comply With Maximum Length"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_contain_at_least_one_upper_case"><phrase id="fldcaption" value="Password Must Contain At Least One Upper Case"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_contain_at_least_one_numeric"><phrase id="fldcaption" value="Password Must Contain At Least One Numeric"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_contain_at_least_one_symbol"><phrase id="fldcaption" value="Password Must Contain At Least One Symbol"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="password_must_be_difference_between_old_and_new"><phrase id="fldcaption" value="Password Must Be Difference Between Old And New"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="reset_password_field_options"><phrase id="fldcaption" value="Reset Password Field Options"/>
+<phrase id="fldtagvalue1" value="EmailOrUsername"/>
+<phrase id="fldtagcaption1" value="Email Or Username"/>
+<phrase id="fldtagvalue2" value="Username"/>
+<phrase id="fldtagcaption2" value="Username"/>
+<phrase id="fldtagvalue3" value="Email"/>
+<phrase id="fldtagcaption3" value="Email"/>
+</field>
+<field id="export_record_options"><phrase id="fldcaption" value="Export Record Options"/>
+<phrase id="fldtagvalue1" value="selectedrecords"/>
+<phrase id="fldtagcaption1" value="Selected Records"/>
+<phrase id="fldtagvalue2" value="currentpage"/>
+<phrase id="fldtagcaption2" value="Current Page"/>
+<phrase id="fldtagvalue3" value="allpages"/>
+<phrase id="fldtagcaption3" value="All Pages"/>
+</field>
+<field id="show_record_number_on_exported_list_page"><phrase id="fldcaption" value="Show Record Number On Exported List Page"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="use_table_setting_for_export_field_caption"><phrase id="fldcaption" value="Use Table Setting For Export Field Caption"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="use_table_setting_for_export_original_value"><phrase id="fldcaption" value="Use Table Setting For Export Original Value"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+</table>
+<table id="stats_counter"><phrase id="tblcaption" value="Statistics Browser and OS"/>
+<field id="type"><phrase id="fldcaption" value="Type"/>
+</field>
+<field id="variable"><phrase id="fldcaption" value="Variable"/>
+</field>
+<field id="counter"><phrase id="fldcaption" value="Counter"/>
+</field>
+</table>
+<table id="stats_counterlog"><phrase id="tblcaption" value="Statistic per IP"/>
+<field id="ip_address"><phrase id="fldcaption" value="IP Address"/>
+</field>
+<field id="hostname"><phrase id="fldcaption" value="Hostname"/>
+</field>
+<field id="first_visit"><phrase id="fldcaption" value="First Visit"/>
+</field>
+<field id="last_visit"><phrase id="fldcaption" value="Last Visit"/>
+</field>
+<field id="counter"><phrase id="fldcaption" value="Counter"/>
+</field>
+</table>
+<table id="stats_date"><phrase id="tblcaption" value="Statistics per Day"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="hits"><phrase id="fldcaption" value="Hits"/>
+</field>
+</table>
+<table id="stats_hour"><phrase id="tblcaption" value="Statistics per Hour"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="Date"/>
+</field>
+<field id="hour"><phrase id="fldcaption" value="Hour"/>
+</field>
+<field id="hits"><phrase id="fldcaption" value="Hits"/>
+</field>
+</table>
+<table id="stats_month"><phrase id="tblcaption" value="Statistics per Month"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="Month"/>
+</field>
+<field id="hits"><phrase id="fldcaption" value="Hits"/>
+</field>
+</table>
+<table id="stats_year"><phrase id="tblcaption" value="Statistics per Year"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="hits"><phrase id="fldcaption" value="Hits"/>
+</field>
+</table>
+<table id="themes"><phrase id="tblcaption" value="Themes/Colors"/>
+<field id="theme_id"><phrase id="fldcaption" value="Theme ID"/>
+</field>
+<field id="theme_name"><phrase id="fldcaption" value="Theme Name"/>
+</field>
+<field id="_default"><phrase id="fldcaption" value="Default?"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+</table>
+<table id="timezone"><phrase id="tblcaption" value="Timezone"/>
+<field id="timezone"><phrase id="fldcaption" value="Timezone"/>
+</field>
+<field id="_default"><phrase id="fldcaption" value="Default?"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+</table>
+<table id="userlevelpermissions"><phrase id="tblcaption" value="User Level Permissions"/>
+<field id="user_level_id"><phrase id="fldcaption" value="User Level ID"/>
+</field>
+<field id="table_name"><phrase id="fldcaption" value="Table Name"/>
+</field>
+<field id="permission"><phrase id="fldcaption" value="Permission"/>
+</field>
+</table>
+<table id="userlevels"><phrase id="tblcaption" value="User Levels"/>
+<field id="user_level_id"><phrase id="fldcaption" value="User Level ID"/>
+</field>
+<field id="user_level_name"><phrase id="fldcaption" value="User Level Name"/>
+</field>
+</table>
+<table id="users"><phrase id="tblcaption" value="Users"/>
+<field id="username"><phrase id="fldcaption" value="Username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="first_name"><phrase id="fldcaption" value="First Name"/>
+</field>
+<field id="last_name"><phrase id="fldcaption" value="Last Name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="user_level"><phrase id="fldcaption" value="User Level"/>
+</field>
+<field id="report_to"><phrase id="fldcaption" value="Reports To"/>
+</field>
+<field id="activated"><phrase id="fldcaption" value="Activated"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="locked"><phrase id="fldcaption" value="Locked"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="profile"><phrase id="fldcaption" value="Profile"/>
+</field>
+<field id="current_url"><phrase id="fldcaption" value="Current URL"/>
+</field>
+<field id="theme"><phrase id="fldcaption" value="Theme"/>
+</field>
+<field id="menu_horizontal"><phrase id="fldcaption" value="Menu Horizontal"/>
+<phrase id="fldtagvalue1" value="N"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="Y"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="table_width_style"><phrase id="fldcaption" value="Table Width Style"/>
+<phrase id="fldtagvalue1" value="3"/>
+<phrase id="fldtagcaption1" value="100%"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="Auto"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Scroll"/>
+</field>
+<field id="scroll_table_width"><phrase id="fldcaption" value="Scroll Table Width"/>
+</field>
+<field id="scroll_table_height"><phrase id="fldcaption" value="Scroll Table Height"/>
+</field>
+<field id="rows_vertical_align_top"><phrase id="fldcaption" value="Rows Vertical Align Top"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="_language"><phrase id="fldcaption" value="Language"/>
+</field>
+<field id="redirect_to_last_visited_page_after_login"><phrase id="fldcaption" value="Redirect To Last Visited Page After Login"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="No"/>
+</field>
+<field id="font_name"><phrase id="fldcaption" value="Font Name"/>
+<phrase id="fldtagvalue1" value="arial"/>
+<phrase id="fldtagcaption1" value="Arial"/>
+<phrase id="fldtagvalue2" value="calibri"/>
+<phrase id="fldtagcaption2" value="Calibri"/>
+<phrase id="fldtagvalue3" value="century"/>
+<phrase id="fldtagcaption3" value="Century"/>
+<phrase id="fldtagvalue4" value="centurygothic"/>
+<phrase id="fldtagcaption4" value="Century Gothic"/>
+<phrase id="fldtagvalue5" value="comicsansms"/>
+<phrase id="fldtagcaption5" value="Comic Sans MS"/>
+<phrase id="fldtagvalue6" value="couriernew"/>
+<phrase id="fldtagcaption6" value="Courier New"/>
+<phrase id="fldtagvalue7" value="futuranormal"/>
+<phrase id="fldtagcaption7" value="Futura Normal"/>
+<phrase id="fldtagvalue8" value="lucidasans"/>
+<phrase id="fldtagcaption8" value="Lucida Sans"/>
+<phrase id="fldtagvalue9" value="lucidasanstypewriter"/>
+<phrase id="fldtagcaption9" value="Lucida Sans Typewriter"/>
+<phrase id="fldtagvalue10" value="msgothic"/>
+<phrase id="fldtagcaption10" value="MS Gothic"/>
+<phrase id="fldtagvalue11" value="mssansserif"/>
+<phrase id="fldtagcaption11" value="MS Sans Serif"/>
+<phrase id="fldtagvalue12" value="tahoma"/>
+<phrase id="fldtagcaption12" value="Tahoma"/>
+<phrase id="fldtagvalue13" value="timesnewroman"/>
+<phrase id="fldtagcaption13" value="Times New Roman"/>
+<phrase id="fldtagvalue14" value="verdana"/>
+<phrase id="fldtagcaption14" value="Verdana"/>
+</field>
+<field id="font_size"><phrase id="fldcaption" value="Font Size"/>
+<phrase id="fldtagvalue1" value="11px"/>
+<phrase id="fldtagcaption1" value="11px"/>
+<phrase id="fldtagvalue2" value="12px"/>
+<phrase id="fldtagcaption2" value="12px"/>
+<phrase id="fldtagvalue3" value="13px"/>
+<phrase id="fldtagcaption3" value="13px"/>
+<phrase id="fldtagvalue4" value="14px"/>
+<phrase id="fldtagcaption4" value="14px"/>
+</field>
+</table>
+<table id="view_sales_outstandings"><phrase id="tblcaption" value="Outstanding Sales"/>
+<field id="sales_id"><phrase id="fldcaption" value="Sales ID"/>
+</field>
+<field id="sales_number"><phrase id="fldcaption" value="Sales Number"/>
+</field>
+<field id="sales_date"><phrase id="fldcaption" value="Sales Date"/>
+</field>
+<field id="customer_id"><phrase id="fldcaption" value="Customer ID"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="total_amount"><phrase id="fldcaption" value="Total Amount"/>
+<phrase id="flderrmsg" value="Please enter the sales item from table below!"/>
+</field>
+<field id="final_total_amount"><phrase id="fldcaption" value="Final Total Amount"/>
+</field>
+<field id="total_payment"><phrase id="fldcaption" value="Total Payment"/>
+<phrase id="flderrmsg" value="Please enter the payment!"/>
+</field>
+<field id="total_balance"><phrase id="fldcaption" value="Total Balance"/>
+<phrase id="flderrmsg" value="Please enter the balance!"/>
+</field>
+<field id="discount_type"><phrase id="fldcaption" value="Discount Type"/>
+<phrase id="fldtagvalue1" value="P"/>
+<phrase id="fldtagcaption1" value="Discount Percentage"/>
+<phrase id="fldtagvalue2" value="A"/>
+<phrase id="fldtagcaption2" value="Discount Amount"/>
+</field>
+<field id="discount_percentage"><phrase id="fldcaption" value="Discount Percentage"/>
+</field>
+<field id="discount_amount"><phrase id="fldcaption" value="Discount Amount"/>
+</field>
+<field id="tax_percentage"><phrase id="fldcaption" value="Tax Percentage"/>
+</field>
+<field id="tax_description"><phrase id="fldcaption" value="Tax Description"/>
+</field>
+</table>
+<table id="view_purchases_outstandings"><phrase id="tblcaption" value="Outstanding Purchases"/>
+<field id="purchase_id"><phrase id="fldcaption" value="Purchase ID"/>
+</field>
+<field id="purchase_number"><phrase id="fldcaption" value="Purchase Number"/>
+</field>
+<field id="purchase_date"><phrase id="fldcaption" value="PurchaseDate"/>
+</field>
+<field id="supplier_id"><phrase id="fldcaption" value="Supplier ID"/>
+</field>
+<field id="notes"><phrase id="fldcaption" value="Notes"/>
+</field>
+<field id="total_amount"><phrase id="fldcaption" value="Total Amount"/>
+<phrase id="flderrmsg" value="Please enter the purchasing item from table below!"/>
+<phrase id="fldtitle" value="Autofilled-in by purchasing item below"/>
+</field>
+<field id="total_payment"><phrase id="fldcaption" value="Total Payment"/>
+<phrase id="flderrmsg" value="Please enter the payment!"/>
+<phrase id="fldtitle" value="You may fill in the Payment after selecting item below"/>
+</field>
+<field id="total_balance"><phrase id="fldcaption" value="Total Balance"/>
+<phrase id="flderrmsg" value="Please enter the balance!"/>
+<phrase id="fldtitle" value="Autofilled-in from substracting Amount by Payment"/>
+</field>
+</table>
+<table id="view_sales_details"><phrase id="tblcaption" value="Sales Detail"/>
+<field id="sales_id"><phrase id="fldcaption" value="Sales ID"/>
+</field>
+<field id="sales_number"><phrase id="fldcaption" value="Sales Number"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Supplier Number"/>
+</field>
+<field id="stock_item"><phrase id="fldcaption" value="Stock Item"/>
+</field>
+<field id="sales_quantity"><phrase id="fldcaption" value="Sales Quantity"/>
+</field>
+<field id="purchasing_price"><phrase id="fldcaption" value="Purchasing Price"/>
+</field>
+<field id="sales_price"><phrase id="fldcaption" value="Sales Price"/>
+</field>
+<field id="sales_total_amount"><phrase id="fldcaption" value="Total Amount"/>
+</field>
+</table>
+<table id="view_purchases_details"><phrase id="tblcaption" value="Purchases Detail"/>
+<field id="purchase_id"><phrase id="fldcaption" value="Purchase ID"/>
+</field>
+<field id="purchase_number"><phrase id="fldcaption" value="Purchase Number"/>
+</field>
+<field id="supplier_number"><phrase id="fldcaption" value="Supplier Number"/>
+</field>
+<field id="stock_item"><phrase id="fldcaption" value="Stock Item"/>
+</field>
+<field id="brand_id"><phrase id="fldcaption" value="Brand ID"/>
+</field>
+<field id="brand_name"><phrase id="fldcaption" value="Brand Name"/>
+</field>
+<field id="purchasing_quantity"><phrase id="fldcaption" value="Purchasing Quantity"/>
+</field>
+<field id="purchasing_price"><phrase id="fldcaption" value="Purchasing Price"/>
+</field>
+<field id="selling_price"><phrase id="fldcaption" value="Selling Price"/>
+</field>
+<field id="purchasing_total_amount"><phrase id="fldcaption" value="Purchasing Total Amount"/>
+</field>
+</table>
+<table id="dashboard_php"><phrase id="tblcaption" value="Dashboard"/>
+</table>
+</project>
+</ew-language>

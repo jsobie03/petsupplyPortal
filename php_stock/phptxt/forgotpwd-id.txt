@@ -1,0 +1,19 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Yth. Bapak/Ibu,
+
+Berikut ini informasi yang Anda minta:
+
+ID Pengguna: <!--$UserName-->
+Kata Sandi: <!--$Password-->
+
+Hubungi kami jika masih ada yang ingin ditanyakan.
+
+Salam,
+Admin
+

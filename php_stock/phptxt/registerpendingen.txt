@@ -1,0 +1,27 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Thank you for registering with us. Your registration details with us is as follow: 
+
+
+<!--FieldCaption_Username-->: <!--Username-->
+
+<!--FieldCaption_Password-->: <!--Password-->
+
+<!--FieldCaption_First_Name-->: <!--First_Name-->
+
+<!--FieldCaption_Last_Name-->: <!--Last_Name-->
+
+<!--FieldCaption_Email-->: <!--Email-->
+
+
+Your account is currently not active. We will activate it and let you know afterwards.
+
+Best Regards,
+Support

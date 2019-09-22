@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<configuration date="2015/11/02" author="e.World Technology Ltd.">
+<project id="{B36B93AF-B58F-461B-B767-5F08C12493E9}" file="D:\Projects\PHPMaker\Inventory_Stock\php_stock.pmp" name="php_stock" product="PHPMaker" version="12.0" datetime="2015/11/02 15:52:19" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+<table id="a_stock_items" name="a_stock_items" caption="Stock Items" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_suppliers" name="a_suppliers" caption="Suppliers" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_purchases" name="a_purchases" caption="Purchases" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_purchases_detail" name="a_purchases_detail" caption="Purchases Detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_customers" name="a_customers" caption="Customers" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_sales" name="a_sales" caption="Sales" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_sales_detail" name="a_sales_detail" caption="Sales Detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_payment_transactions" name="a_payment_transactions" caption="Payment Transactions" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_stock_categories" name="a_stock_categories" caption="Stock Categories" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="a_unit_of_measurement" name="a_unit_of_measurement" caption="Unit of Measurement" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="announcement" name="announcement" caption="announcement" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="breadcrumblinks" name="breadcrumblinks" caption="breadcrumblinks" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="help" name="help" caption="help" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,0" priv="1"/>
+<table id="help_categories" name="help_categories" caption="help categories" userlevel="-2,&quot;Anonymous&quot;,104;0,&quot;Default&quot;,0" priv="1"/>
+<table id="languages" name="languages" caption="languages" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="settings" name="settings" caption="settings" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_counter" name="stats_counter" caption="stats counter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_counterlog" name="stats_counterlog" caption="stats counterlog" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_date" name="stats_date" caption="stats date" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_hour" name="stats_hour" caption="stats hour" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_month" name="stats_month" caption="stats month" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="stats_year" name="stats_year" caption="stats year" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="themes" name="themes" caption="themes" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="timezone" name="timezone" caption="timezone" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="userlevelpermissions" name="userlevelpermissions" caption="User Level Permissions" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="userlevels" name="userlevels" caption="userlevels" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="users" name="users" caption="users" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="view_sales_outstandings" name="view_sales_outstandings" caption="Sales" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="view_purchases_outstandings" name="view_purchases_outstandings" caption="Purchases" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="view_sales_details" name="view_sales_details" caption="Sales Detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="view_purchases_details" name="view_purchases_details" caption="Purchases Detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+<table id="dashboard_php" name="dashboard.php" caption="Dashboard" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>

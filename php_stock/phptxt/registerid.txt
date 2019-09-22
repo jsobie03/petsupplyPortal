@@ -1,0 +1,32 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Yth. Bapak/Ibu,
+
+Terima kasih sudah mendaftar. Informasi pendaftaran Anda adalah sebagai berikut: 
+
+
+<!--FieldCaption_Username-->: <!--Username-->
+
+<!--FieldCaption_Password-->: <!--Password-->
+
+<!--FieldCaption_First_Name-->: <!--First_Name-->
+
+<!--FieldCaption_Last_Name-->: <!--Last_Name-->
+
+<!--FieldCaption_Email-->: <!--Email-->
+
+
+
+Silahkan klik tautan berikut untuk mengaktifkan akun Anda:
+<!--ActivateLink-->
+
+
+Hubungi kami jika masih ada yang ingin ditanyakan.
+
+Salam,
+Admin

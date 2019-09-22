@@ -1,0 +1,27 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Yth. Bapak/Ibu,
+
+Terima kasih telah mendaftar. Informasi akun Anda adalah sebagai berikut: 
+
+
+<!--FieldCaption_Username-->: <!--Username-->
+
+<!--FieldCaption_Password-->: <!--Password-->
+
+<!--FieldCaption_First_Name-->: <!--First_Name-->
+
+<!--FieldCaption_Last_Name-->: <!--Last_Name-->
+
+<!--FieldCaption_Email-->: <!--Email-->
+
+
+Akun Anda saat ini belum diaktifkan. Segera setelah diaktifkan, kami akan memberitahukan Anda kembali.
+
+Salam,
+Administrator

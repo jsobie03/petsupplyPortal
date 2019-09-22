@@ -1,0 +1,8 @@
+[14-Feb-2019 06:10:38 America/Denver] PHP Notice:  Undefined variable: db1 in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[14-Feb-2019 06:10:38 America/Denver] PHP Fatal error:  Call to a member function prepare() on null in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[15-Feb-2019 16:06:18 America/Denver] PHP Notice:  Undefined variable: db1 in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[15-Feb-2019 16:06:18 America/Denver] PHP Fatal error:  Call to a member function prepare() on null in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[24-Feb-2019 14:31:09 America/Denver] PHP Notice:  Undefined variable: db1 in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[24-Feb-2019 14:31:09 America/Denver] PHP Fatal error:  Call to a member function prepare() on null in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[25-Feb-2019 01:15:11 America/Denver] PHP Notice:  Undefined variable: db1 in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20
+[25-Feb-2019 01:15:11 America/Denver] PHP Fatal error:  Call to a member function prepare() on null in /home2/jsobieze/public_html/PetSupplyPortal/customers/viewCustomers.php on line 20

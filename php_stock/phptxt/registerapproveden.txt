@@ -1,0 +1,16 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Dear Sir/Madam,
+
+Congratulations, your account has been activated.
+
+User ID: <!--$UserName-->
+Password: (as we have previously sent to you via email)
+
+Best Regards,
+Support

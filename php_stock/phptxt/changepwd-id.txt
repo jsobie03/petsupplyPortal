@@ -1,0 +1,17 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Yth. Bapak/Ibu,
+
+Kata Sandi Anda sudah diganti menjadi sebagai berikut:
+
+Kata Sandi baru: <!--$Password-->
+
+Hubungi kami jika masih ada yang ingin ditanyakan.
+
+Salam,
+Admin

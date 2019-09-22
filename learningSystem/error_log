@@ -1,0 +1,4 @@
+[22-Feb-2019 03:16:06 America/Denver] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'jsobieze_psPort'@'box1115.bluehost.com' (using password: YES) in /home2/jsobieze/public_html/PetSupplyPortal/learningSystem/include/database.php on line 19
+[22-Feb-2019 19:28:21 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/jsobieze/public_html/PetSupplyPortal/learningSystem/quizresult.php on line 34
+[03-Mar-2019 17:17:54 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/jsobieze/public_html/PetSupplyPortal/learningSystem/quizresult.php on line 34
+[03-Mar-2019 20:04:11 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/jsobieze/public_html/PetSupplyPortal/learningSystem/quizresult.php on line 34

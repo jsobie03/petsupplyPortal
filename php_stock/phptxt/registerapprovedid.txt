@@ -1,0 +1,16 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Yth. Bapak/Ibu,
+
+Selamat, akun Anda sudah kami aktifkan. 
+
+ID Pengguna: <!--$UserName-->
+Kata Sandi: (sesuai dengan yang kami kirim di email sebelumnya)
+
+Salam,
+Administrator
